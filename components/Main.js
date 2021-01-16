@@ -1,13 +1,15 @@
-import React from 'react'
+import React from 'react';
+import First_section from "./First_section";
+import Second_section from "./Second_section";
 
 function Main() {
     return (
-        <>
-            <header>I am the header of main</header>
-            <section
-            className="first_section"></section>
-            <section className="second_section"></section>
-        </>
+        <main>
+            <div className="container">
+                <First_section />
+                <Second_section />
+            </div>
+        </main>
     )
 }
 

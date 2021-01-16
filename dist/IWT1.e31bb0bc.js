@@ -29854,7 +29854,7 @@ function Header() {
 
 var _default = Header;
 exports.default = _default;
-},{"react":"node_modules/react/index.js"}],"components/Main.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js"}],"components/First_section.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -29866,19 +29866,61 @@ var _react = _interopRequireDefault(require("react"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+function First_section() {
+  return /*#__PURE__*/_react.default.createElement("section", {
+    className: "first_section"
+  }, /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("h2", null, "Why choose Easybank?"), /*#__PURE__*/_react.default.createElement("p", null, "We leverage Open Banking to turn your bank account into your financial hub. Control your finances like never before.")), /*#__PURE__*/_react.default.createElement("article", null, /*#__PURE__*/_react.default.createElement("h4", null, "Online Banking"), /*#__PURE__*/_react.default.createElement("p", null, "Our modern web and mobile applications allow you to keep track of your finances wherever you are in the world.")), /*#__PURE__*/_react.default.createElement("article", null, /*#__PURE__*/_react.default.createElement("h4", null, "Simple Budgeting"), /*#__PURE__*/_react.default.createElement("p", null, "See exactly wheere your money goes each month. Receive notifications when you're close to your hitting limits.")), /*#__PURE__*/_react.default.createElement("article", null, /*#__PURE__*/_react.default.createElement("h4", null, "Fast Onboarding"), /*#__PURE__*/_react.default.createElement("p", null, "We don't do branches. Open your account in minutes online and start taking control of your finaces right away.")), /*#__PURE__*/_react.default.createElement("article", null, /*#__PURE__*/_react.default.createElement("h4", null, "Open API"), /*#__PURE__*/_react.default.createElement("p", null, "Manage your savings, investments, pension, and much more from one account. Tracking your money has never been easier.")));
+}
+
+var _default = First_section;
+exports.default = _default;
+},{"react":"node_modules/react/index.js"}],"components/Second_section.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Seecond_section() {
+  return /*#__PURE__*/_react.default.createElement("section", {
+    className: "second_section"
+  }, /*#__PURE__*/_react.default.createElement("h3", null, "Latest Articles"), /*#__PURE__*/_react.default.createElement("div", {
+    className: "articles"
+  }, /*#__PURE__*/_react.default.createElement("article", null, /*#__PURE__*/_react.default.createElement("span", null, "By Claire Robinson"), /*#__PURE__*/_react.default.createElement("h5", null, "Receive money in any currency with no fees"), /*#__PURE__*/_react.default.createElement("p", null, "The world is getting smaller and we're becoming more mobile. So why should you be forced to only receive in a single...")), /*#__PURE__*/_react.default.createElement("article", null, /*#__PURE__*/_react.default.createElement("span", null, "By Wilson Huntton"), /*#__PURE__*/_react.default.createElement("h5", null, "Treat yourself without worrying about money"), /*#__PURE__*/_react.default.createElement("p", null, "Our simple budgeting feature allows you to separate out your spending and set realistic limits each month. That means you ...")), /*#__PURE__*/_react.default.createElement("article", null, /*#__PURE__*/_react.default.createElement("span", null, "By Wilson Huntton"), /*#__PURE__*/_react.default.createElement("h5", null, "Take your Easybank card wherever you go"), /*#__PURE__*/_react.default.createElement("p", null, "We want you to enjoy your travels. This is why we don't charge any fees on purchases while you're abroad. We'll even show you ...")), /*#__PURE__*/_react.default.createElement("article", null, /*#__PURE__*/_react.default.createElement("span", null, "By Claire Robinson"), /*#__PURE__*/_react.default.createElement("h5", null, "Our invite-only Beta accounts are now live!"), /*#__PURE__*/_react.default.createElement("p", null, "After a lot of hard work by the whole team, we're excited to launch our closed beta. It's easy to request an invite through the site ..."))));
+}
+
+var _default = Seecond_section;
+exports.default = _default;
+},{"react":"node_modules/react/index.js"}],"components/Main.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _First_section = _interopRequireDefault(require("./First_section"));
+
+var _Second_section = _interopRequireDefault(require("./Second_section"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 function Main() {
   return /*#__PURE__*/_react.default.createElement("main", null, /*#__PURE__*/_react.default.createElement("div", {
     className: "container"
-  }, /*#__PURE__*/_react.default.createElement("header", null, "I am the header of main"), /*#__PURE__*/_react.default.createElement("section", {
-    className: "first_section"
-  }), /*#__PURE__*/_react.default.createElement("section", {
-    className: "second_section"
-  })));
+  }, /*#__PURE__*/_react.default.createElement(_First_section.default, null), /*#__PURE__*/_react.default.createElement(_Second_section.default, null)));
 }
 
 var _default = Main;
 exports.default = _default;
-},{"react":"node_modules/react/index.js"}],"components/Footer.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","./First_section":"components/First_section.js","./Second_section":"components/Second_section.js"}],"components/Footer.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -30052,7 +30094,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54460" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57427" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

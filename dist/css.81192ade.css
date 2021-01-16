@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  padding: 16px;
 }
 body ul {
   padding: 0;
@@ -14,6 +13,40 @@ body a {
 }
 body h1, body h2, body h3, body h4, body h5, body h6, body p {
   margin: 0;
+}
+
+header .container .sub_header {
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  position: relative;
+  background: white;
+}
+header .container .sub_header .header_navigation, header .container .sub_header .request_invite {
+  display: none;
+}
+header .container .sub_header .header_input:checked ~ .header_navigation {
+  width: 266px;
+  display: inline-block;
+  padding: 32px;
+  background: white;
+  border-radius: 5px;
+  position: fixed;
+  top: 143px;
+  margin: auto;
+}
+header .container .sub_header .header_input:checked ~ .header_navigation ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header .container .sub_header .header_input:checked ~ .header_navigation ul li {
+  padding: 10px 0;
 }
 
 /*# sourceMappingURL=/css.81192ade.css.map */

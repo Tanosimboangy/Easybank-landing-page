@@ -32,7 +32,7 @@ header .container .sub_header .header_navigation, header .container .sub_header 
 }
 header .container .sub_header .header_input {
   position: absolute;
-  top: 32px;
+  top: 22px;
   right: 6px;
   z-index: 1;
   width: 30px;
@@ -40,7 +40,7 @@ header .container .sub_header .header_input {
   opacity: 0;
 }
 header .container .sub_header .header_input:checked ~ .header_navigation {
-  width: 266px;
+  width: 60%;
   display: inline-block;
   padding: 32px;
   background: white;
@@ -48,6 +48,7 @@ header .container .sub_header .header_input:checked ~ .header_navigation {
   position: fixed;
   top: 143px;
   margin: auto;
+  left: 10%;
 }
 header .container .sub_header .header_input:checked ~ .header_navigation ul {
   display: flex;
@@ -59,7 +60,7 @@ header .container .sub_header .header_input:checked ~ .header_navigation ul li {
 }
 header .container .sub_header .open_menu svg {
   position: absolute;
-  top: 44.5px;
+  top: 34.5px;
   right: 13px;
 }
 header .container .sub_header .close_menu svg {
@@ -71,7 +72,7 @@ header .container .sub_header .header_input:checked ~ .open_menu svg {
 header .container .sub_header .header_input:checked ~ .close_menu svg {
   display: inline-block;
   position: absolute;
-  top: 41px;
+  top: 30px;
   right: 13px;
 }
 

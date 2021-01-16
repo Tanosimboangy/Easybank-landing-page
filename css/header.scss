@@ -16,7 +16,7 @@ header {
             }
             .header_input {
                 position: absolute;
-                top: 32px;
+                top: 22px;
                 right: 6px;
                 z-index: 1;
                 width: 30px;
@@ -24,7 +24,7 @@ header {
                 opacity: 0;
             }
             .header_input:checked ~ .header_navigation {
-                width: 266px;
+                width: 60%;
                 display: inline-block;
                 padding: 32px;
                 background: white;
@@ -32,6 +32,7 @@ header {
                 position: fixed;
                 top: 143px;
                 margin: auto;
+                left: 10%;
                 ul {
                     display: flex;
                     flex-direction: column;
@@ -43,7 +44,7 @@ header {
             }
             .open_menu svg {
                 position: absolute;
-                top: 44.5px;
+                top: 34.5px;
                 right: 13px;
             }
             .close_menu svg {
@@ -55,7 +56,7 @@ header {
             .header_input:checked ~ .close_menu svg{
                 display: inline-block;
                 position: absolute;
-                top: 41px;
+                top: 30px;
                 right: 13px;
             }
         }

@@ -29827,7 +29827,31 @@ function Header() {
   })))), /*#__PURE__*/_react.default.createElement("input", {
     type: "checkbox",
     className: "header_input"
-  }), /*#__PURE__*/_react.default.createElement("nav", {
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "open_menu"
+  }, /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "24",
+    height: "11"
+  }, /*#__PURE__*/_react.default.createElement("g", {
+    fill: "#2D314D",
+    "fill-rule": "evenodd"
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M0 0h24v1H0zM0 5h24v1H0zM0 10h24v1H0z"
+  })))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "close_menu"
+  }, /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "18",
+    height: "19"
+  }, /*#__PURE__*/_react.default.createElement("g", {
+    fill: "#2D314D",
+    "fill-rule": "evenodd"
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M.868.661l16.97 16.97-.706.708L.162 1.369z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    d: "M.161 17.632L17.131.662l.708.706-16.97 16.97z"
+  })))), /*#__PURE__*/_react.default.createElement("nav", {
     className: "header_navigation"
   }, /*#__PURE__*/_react.default.createElement("ul", {
     className: "navigation_lists"

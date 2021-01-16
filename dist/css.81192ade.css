@@ -30,6 +30,15 @@ header .container .sub_header {
 header .container .sub_header .header_navigation, header .container .sub_header .request_invite {
   display: none;
 }
+header .container .sub_header .header_input {
+  position: absolute;
+  top: 32px;
+  right: 6px;
+  z-index: 1;
+  width: 30px;
+  height: 30px;
+  opacity: 0;
+}
 header .container .sub_header .header_input:checked ~ .header_navigation {
   width: 266px;
   display: inline-block;
@@ -47,6 +56,60 @@ header .container .sub_header .header_input:checked ~ .header_navigation ul {
 }
 header .container .sub_header .header_input:checked ~ .header_navigation ul li {
   padding: 10px 0;
+}
+header .container .sub_header .open_menu svg {
+  position: absolute;
+  top: 44.5px;
+  right: 13px;
+}
+header .container .sub_header .close_menu svg {
+  display: none;
+}
+header .container .sub_header .header_input:checked ~ .open_menu svg {
+  display: none;
+}
+header .container .sub_header .header_input:checked ~ .close_menu svg {
+  display: inline-block;
+  position: absolute;
+  top: 41px;
+  right: 13px;
+}
+
+@media (min-width: 720px) {
+  header .container .sub_header {
+    max-width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  header .container .sub_header .header_navigation, header .container .sub_header .request_invite {
+    display: inline-block;
+  }
+  header .container .sub_header .header_input {
+    display: none;
+  }
+  header .container .sub_header .header_navigation {
+    position: initial;
+    display: inline-block;
+    background: white;
+  }
+  header .container .sub_header .header_navigation ul {
+    display: flex;
+    flex-direction: row;
+  }
+  header .container .sub_header .header_navigation ul li {
+    padding: 0;
+  }
+  header .container .sub_header .open_menu svg {
+    display: none;
+  }
+  header .container .sub_header .close_menu svg {
+    display: none;
+  }
+  header .container .sub_header .request_invite {
+    margin-left: 25%;
+  }
 }
 
 /*# sourceMappingURL=/css.81192ade.css.map */

@@ -3,7 +3,7 @@ import React from 'react'
 function Seecond_section() {
     return (
         <section className="second_section">
-            <h3>Latest Articles</h3>
+            <h2>Latest Articles</h2>
             <div className="articles">
                 <article>
                     {/* img */}

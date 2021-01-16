@@ -25,9 +25,11 @@ function Header() {
                     <button type="button" className="request_invite">Request Invite</button>
                 </div>
                 <div className="header_details">
-                    <h1>Nest generation digital banking</h1>
-                    <p>Take our finacial life online. Your Easybank account will be a one-stop-shop for spending, saving, budgeting, investing, and much more.</p>
-                    <button type="button" className="">Request invite</button>
+                    <div className="container">
+                        <h1>Nest generation digital banking</h1>
+                        <p>Take our finacial life online. Your Easybank account will be a one-stop-shop for spending, saving, budgeting, investing, and much more.</p>
+                        <button type="button" className="request_invite">Request invite</button>
+                    </div>
                 </div>
             </div>
         </header>

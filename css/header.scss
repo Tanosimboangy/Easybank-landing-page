@@ -1,3 +1,8 @@
+// PublicSans-bold
+// PublicSans-Medium
+// PublicSans-Regular
+// PublicSans-SemiBold
+// PublicSans-Thin
 header {
     .container {
         .sub_header {
@@ -24,13 +29,13 @@ header {
                 opacity: 0;
             }
             .header_input:checked ~ .header_navigation {
-                width: 60%;
+                width: 70%;
                 display: inline-block;
-                padding: 32px;
+                padding: 16px;
                 background: white;
                 border-radius: 5px;
                 position: fixed;
-                top: 143px;
+                top: 90px;
                 margin: auto;
                 left: 10%;
                 ul {
@@ -39,6 +44,13 @@ header {
                     align-items: center;
                     li {
                         padding: 10px 0;
+                        a {
+                            font-family: "PublicSans-Regular";
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 18px;
+                            color: rgb(50, 44, 44);
+                        }
                     }
                 }
             }
@@ -58,6 +70,59 @@ header {
                 position: absolute;
                 top: 30px;
                 right: 13px;
+            }
+        }
+        .header_details {
+            // background-image: url(../images/bg-intro-mobile.svg);
+            // background-repeat: no-repeat;
+            // background-position: 50% 50%;
+            padding-bottom: 80px;
+            background-color: hsl(0, 0%, 98%);
+            .container {
+                max-width: 90%;
+                margin: auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h1 {
+                    font-family: "PublicSans-Regular";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 36px;
+                    color: rgb(50, 44, 44);
+                    padding-top: 250px;
+                    padding-bottom: 30px;
+                }
+                p {
+                    font-family: "PublicSans-Regular";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    color: rgb(50, 44, 44);
+                    opacity: .8;
+                    padding-bottom: 30px;
+                }
+                .request_invite {
+                    display: block;
+                    text-align: center;
+                    font-weight: bold;
+                    color:#fff;
+                    text-decoration: none;
+                    background-color: #429000;
+                    outline: none;
+                    padding:10px 5px;
+                    -webkit-border-radius: 10px;
+                    -moz-border-radius: 10px;
+                    border-radius: 10px;
+                    -webkit-box-sizing: border-box;
+                    -moz-box-sizing: border-box;
+                    box-sizing: border-box;
+                    border: 5px solid #429000;
+                }
+                .request_invite:hover {
+                    color: #429000;
+                    background-color: hsl(0, 0%, 100%);
+                }
             }
         }
     }

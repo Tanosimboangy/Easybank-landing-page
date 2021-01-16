@@ -1,3 +1,23 @@
+@font-face {
+  font-family: "PublicSans-bold";
+  src: local(PublicSans-bold), url(/PublicSans-Bold.dbbe70d7.woff2) format("woff2"), url(/PublicSans-Bold.aa8381e2.woff) format("woff");
+}
+@font-face {
+  font-family: "PublicSans-Medium";
+  src: local(PublicSans-Medium), url(/PublicSans-Medium.cbbedfe7.woff2) format("woff2"), url(/PublicSans-Medium.9abc5240.woff) format("woff");
+}
+@font-face {
+  font-family: "PublicSans-Regular";
+  src: local(PublicSans-Regular), url(/PublicSans-Regular.e1e4cc83.woff2) format("woff2"), url(/PublicSans-Regular.d6455622.woff) format("woff");
+}
+@font-face {
+  font-family: "PublicSans-SemiBold";
+  src: local(PublicSans-SemiBold), url(/PublicSans-SemiBold.10c271b5.woff2) format("woff2"), url(/PublicSans-SemiBold.67f343d9.woff) format("woff");
+}
+@font-face {
+  font-family: "PublicSans-Thin";
+  src: local(PublicSans-Thin), url(/PublicSans-Thin.9e9d57f1.woff2) format("woff2"), url(/PublicSans-Thin.e60b6039.woff) format("woff");
+}
 body {
   margin: 0;
 }
@@ -40,13 +60,13 @@ header .container .sub_header .header_input {
   opacity: 0;
 }
 header .container .sub_header .header_input:checked ~ .header_navigation {
-  width: 60%;
+  width: 70%;
   display: inline-block;
-  padding: 32px;
+  padding: 16px;
   background: white;
   border-radius: 5px;
   position: fixed;
-  top: 143px;
+  top: 90px;
   margin: auto;
   left: 10%;
 }
@@ -57,6 +77,13 @@ header .container .sub_header .header_input:checked ~ .header_navigation ul {
 }
 header .container .sub_header .header_input:checked ~ .header_navigation ul li {
   padding: 10px 0;
+}
+header .container .sub_header .header_input:checked ~ .header_navigation ul li a {
+  font-family: "PublicSans-Regular";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #322c2c;
 }
 header .container .sub_header .open_menu svg {
   position: absolute;
@@ -74,6 +101,56 @@ header .container .sub_header .header_input:checked ~ .close_menu svg {
   position: absolute;
   top: 30px;
   right: 13px;
+}
+header .container .header_details {
+  padding-bottom: 80px;
+  background-color: #fafafa;
+}
+header .container .header_details .container {
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header .container .header_details .container h1 {
+  font-family: "PublicSans-Regular";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  color: #322c2c;
+  padding-top: 250px;
+  padding-bottom: 30px;
+}
+header .container .header_details .container p {
+  font-family: "PublicSans-Regular";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #322c2c;
+  opacity: 0.8;
+  padding-bottom: 30px;
+}
+header .container .header_details .container .request_invite {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  background-color: #429000;
+  outline: none;
+  padding: 10px 5px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 5px solid #429000;
+}
+header .container .header_details .container .request_invite:hover {
+  color: #429000;
+  background-color: white;
 }
 
 @media (min-width: 720px) {
@@ -138,6 +215,46 @@ header .container .sub_header .header_input:checked ~ .close_menu svg {
     color: #429000;
     font-weight: bold;
   }
+}
+.first_section {
+  background: #cdced5;
+  padding-top: 80px;
+}
+.first_section .header {
+  max-width: 90%;
+  margin: auto;
+  padding-bottom: 60px;
+  font-family: "PublicSans-Regular";
+  font-style: normal;
+  font-weight: 500;
+  color: #322c2c;
+  text-align: center;
+}
+.first_section .header h2 {
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+.first_section .header p {
+  font-size: 18px;
+}
+.first_section .article article {
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.first_section .article article svg {
+  padding-bottom: 20px;
+}
+.first_section .article article h4 {
+  padding-bottom: 20px;
+}
+.first_section .article article p {
+  padding-bottom: 20px;
+}
+.first_section .article article:not(:last-of-type) {
+  padding-bottom: 25px;
 }
 
 /*# sourceMappingURL=/css.81192ade.css.map */

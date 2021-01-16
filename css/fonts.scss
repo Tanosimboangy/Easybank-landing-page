@@ -1,12 +1,36 @@
+@font-face {
+    font-family: "PublicSans-bold";
+    src: local(PublicSans-bold),
+      url(../Fonts/PublicSans-Bold.woff2) format("woff2"),
+      url(../Fonts/PublicSans-Bold.woff) format("woff"),
+}
 // @font-face {
-//     font-family: "Poppins_bold";
-//     src: local(Poppins_bold),
-//       url(./Fonts/Poppins-Bold.woff2) format("woff2"),
-//       url(./Fonts/Poppins-Bold.woff) format("woff"),
+//     font-family: "PublicSans-ExtraBold";
+//     src: local(PublicSans-ExtraBold),
+//       url(../Fonts/PublicSans-ExtraBold.woff2) format("woff2"),
+//       url(../Fonts/PublicSans-ExtraBold.woff) format("woff"),
 // }
-// @font-face {
-//     font-family: "Poppins_Regular";
-//     src: local(Poppins_Regular),
-//       url(./Fonts/Poppins-Regular.woff2) format("woff2"),
-//       url(./Fonts/Poppins-Regular.woff) format("woff"),
-// }
+@font-face {
+    font-family: "PublicSans-Medium";
+    src: local(PublicSans-Medium),
+      url(../Fonts/PublicSans-Medium.woff2) format("woff2"),
+      url(../Fonts/PublicSans-Medium.woff) format("woff"),
+}
+@font-face {
+    font-family: "PublicSans-Regular";
+    src: local(PublicSans-Regular),
+      url(../Fonts/PublicSans-Regular.woff2) format("woff2"),
+      url(../Fonts/PublicSans-Regular.woff) format("woff"),
+}
+@font-face {
+    font-family: "PublicSans-SemiBold";
+    src: local(PublicSans-SemiBold),
+      url(../Fonts/PublicSans-SemiBold.woff2) format("woff2"),
+      url(../Fonts/PublicSans-SemiBold.woff) format("woff"),
+}
+@font-face {
+    font-family: "PublicSans-Thin";
+    src: local(PublicSans-Thin),
+      url(../Fonts/PublicSans-Thin.woff2) format("woff2"),
+      url(../Fonts/PublicSans-Thin.woff) format("woff"),
+}

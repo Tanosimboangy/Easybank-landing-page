@@ -30031,9 +30031,23 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function Seecond_section() {
   return /*#__PURE__*/_react.default.createElement("section", {
     className: "second_section"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "container"
   }, /*#__PURE__*/_react.default.createElement("h2", null, "Latest Articles"), /*#__PURE__*/_react.default.createElement("div", {
     className: "articles"
-  }, /*#__PURE__*/_react.default.createElement("article", null, /*#__PURE__*/_react.default.createElement("span", null, "By Claire Robinson"), /*#__PURE__*/_react.default.createElement("h5", null, "Receive money in any currency with no fees"), /*#__PURE__*/_react.default.createElement("p", null, "The world is getting smaller and we're becoming more mobile. So why should you be forced to only receive in a single...")), /*#__PURE__*/_react.default.createElement("article", null, /*#__PURE__*/_react.default.createElement("span", null, "By Wilson Huntton"), /*#__PURE__*/_react.default.createElement("h5", null, "Treat yourself without worrying about money"), /*#__PURE__*/_react.default.createElement("p", null, "Our simple budgeting feature allows you to separate out your spending and set realistic limits each month. That means you ...")), /*#__PURE__*/_react.default.createElement("article", null, /*#__PURE__*/_react.default.createElement("span", null, "By Wilson Huntton"), /*#__PURE__*/_react.default.createElement("h5", null, "Take your Easybank card wherever you go"), /*#__PURE__*/_react.default.createElement("p", null, "We want you to enjoy your travels. This is why we don't charge any fees on purchases while you're abroad. We'll even show you ...")), /*#__PURE__*/_react.default.createElement("article", null, /*#__PURE__*/_react.default.createElement("span", null, "By Claire Robinson"), /*#__PURE__*/_react.default.createElement("h5", null, "Our invite-only Beta accounts are now live!"), /*#__PURE__*/_react.default.createElement("p", null, "After a lot of hard work by the whole team, we're excited to launch our closed beta. It's easy to request an invite through the site ..."))));
+  }, /*#__PURE__*/_react.default.createElement("article", null, /*#__PURE__*/_react.default.createElement("img", {
+    src: "../images/image-currency.jpg",
+    alt: "image-currency"
+  }), /*#__PURE__*/_react.default.createElement("small", null, "By Claire Robinson"), /*#__PURE__*/_react.default.createElement("h5", null, "Receive money in any currency with no fees"), /*#__PURE__*/_react.default.createElement("p", null, "The world is getting smaller and we're becoming more mobile. So why should you be forced to only receive in a single...")), /*#__PURE__*/_react.default.createElement("article", null, /*#__PURE__*/_react.default.createElement("img", {
+    src: "../images/image-currency.jpg",
+    alt: "image-currency"
+  }), /*#__PURE__*/_react.default.createElement("small", null, "By Wilson Huntton"), /*#__PURE__*/_react.default.createElement("h5", null, "Treat yourself without worrying about money"), /*#__PURE__*/_react.default.createElement("p", null, "Our simple budgeting feature allows you to separate out your spending and set realistic limits each month. That means you ...")), /*#__PURE__*/_react.default.createElement("article", null, /*#__PURE__*/_react.default.createElement("img", {
+    src: "../images/image-currency.jpg",
+    alt: "image-currency"
+  }), /*#__PURE__*/_react.default.createElement("small", null, "By Wilson Huntton"), /*#__PURE__*/_react.default.createElement("h5", null, "Take your Easybank card wherever you go"), /*#__PURE__*/_react.default.createElement("p", null, "We want you to enjoy your travels. This is why we don't charge any fees on purchases while you're abroad. We'll even show you ...")), /*#__PURE__*/_react.default.createElement("article", null, /*#__PURE__*/_react.default.createElement("img", {
+    src: "../images/image-currency.jpg",
+    alt: "image-currency"
+  }), /*#__PURE__*/_react.default.createElement("small", null, "By Claire Robinson"), /*#__PURE__*/_react.default.createElement("h5", null, "Our invite-only Beta accounts are now live!"), /*#__PURE__*/_react.default.createElement("p", null, "After a lot of hard work by the whole team, we're excited to launch our closed beta. It's easy to request an invite through the site ...")))));
 }
 
 var _default = Seecond_section;
@@ -30236,7 +30250,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58190" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53599" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

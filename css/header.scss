@@ -38,6 +38,7 @@ header {
                 top: 90px;
                 margin: auto;
                 left: 10%;
+                box-shadow: 0px 0px 10px grey;
                 ul {
                     display: flex;
                     flex-direction: column;
@@ -128,7 +129,7 @@ header {
     }
 }
 
-@media(min-width: 720px) {
+@media(min-width: 850px) {
     header {
         .container {
             .sub_header {
@@ -147,12 +148,37 @@ header {
                     position: initial;
                     display: inline-block;
                     background: white;
+                    margin: auto;
+                    width: 335px;
                     ul {
                         display: none;
                         display: flex;
                         flex-direction: row;
                         li {
                             padding: 0;
+                            font-family: "PublicSans-Regular";
+                            font-style: normal;
+                            font-weight: 500;
+                            a {
+                                font-size: 18px;
+                                position: relative;
+                                display: inline-block;
+                                background: linear-gradient(to right, rgb(25, 25, 112), midnightblue 50%, royalblue 50%);
+                                background-clip: text;
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                                background-size: 200% 100%;
+                                background-position: 100%;
+                                transition: background-position 275ms ease;
+                                text-decoration: none; 
+                                }
+                                a:hover {
+                                    background-position: 0 100%;
+                                    font-weight: 700;
+                            }
+                        }
+                        li:not(:last-of-type) {
+                            margin-right: 16px;
                         }
                     }
                 }   
@@ -163,7 +189,6 @@ header {
                     display: none;
                 }
                 .request_invite {
-                    margin-left: 14%;
                     display: block;
                     text-align: center;
                     font-weight: bold;
@@ -178,7 +203,6 @@ header {
                     -moz-box-sizing: border-box;
                     box-sizing: border-box;
                     border: 5px solid #429000;
-                    box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.15);
                 }
                 .request_invite:active{
                     position: relative;

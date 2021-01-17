@@ -1,17 +1,17 @@
 .first_section {
-    background: hsl(233, 8%, 82%);
+    background: #e1e3ec;
     padding-top: 80px;
+    font-family: "PublicSans-Regular";
+    font-style: normal;
+    font-weight: 500;
+    color: rgb(50, 44, 44);
     .header {
         max-width: 90%;
         margin: auto;
         padding-bottom: 60px;
-        font-family: "PublicSans-Regular";
-        font-style: normal;
-        font-weight: 500;
-        color: rgb(50, 44, 44);
         text-align: center;
         h2 {
-            font-size: 28px;
+            font-size: 32px;
             padding-bottom: 20px;
         }
         p {
@@ -25,14 +25,17 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            text-align: center;
             svg {
                 padding-bottom: 20px;
             }
             h4 {
                 padding-bottom: 20px;
+                font-size: 24px;
             }
             p {
                 padding-bottom: 20px;
+                font-size: 18px;
             }
         }
         article:not(:last-of-type) {

@@ -5,41 +5,76 @@
     font-style: normal;
     font-weight: 500;
     color: rgb(50, 44, 44);
-    .header {
-        max-width: 90%;
-        margin: auto;
-        padding-bottom: 60px;
-        text-align: center;
-        h2 {
-            font-size: 32px;
-            padding-bottom: 20px;
-        }
-        p {
-            font-size: 18px;
-        }
-    }
-    .article {
-        article {
+    .container {
+        .header {
             max-width: 90%;
             margin: auto;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            padding-bottom: 60px;
             text-align: center;
-            svg {
+            h2 {
+                font-size: 32px;
                 padding-bottom: 20px;
-            }
-            h4 {
-                padding-bottom: 20px;
-                font-size: 24px;
             }
             p {
-                padding-bottom: 20px;
                 font-size: 18px;
             }
         }
-        article:not(:last-of-type) {
-            padding-bottom: 25px;
+        .article {
+            article {
+                max-width: 90%;
+                margin: auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                svg {
+                    padding-bottom: 20px;
+                }
+                h4 {
+                    padding-bottom: 20px;
+                    font-size: 24px;
+                }
+                p {
+                    padding-bottom: 20px;
+                    font-size: 18px;
+                }
+            }
+            article:not(:last-of-type) {
+                padding-bottom: 25px;
+            }
+        }
+    }
+}
+
+@media(min-width: 720px) {
+    .first_section {
+        padding-bottom: 80px;
+        .container {
+            max-width: 80%;
+            margin: auto;
+            .header {
+                max-width: 100%;
+                margin: auto;
+                text-align: left;
+                p {
+                    max-width: 650px;
+                }
+            }
+            .article {
+                display: flex;
+                flex-direction: row;
+                article {
+                    width: 250px;
+                    height: 300px;
+                    text-align: left;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                }
+                article:not(:last-of-type) {
+                    padding-bottom: 0;
+                }
+            }
         }
     }
 }

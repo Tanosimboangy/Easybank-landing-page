@@ -248,20 +248,20 @@ header .container .header_details .container .request_invite:hover {
   font-weight: 500;
   color: #322c2c;
 }
-.first_section .header {
+.first_section .container .header {
   max-width: 90%;
   margin: auto;
   padding-bottom: 60px;
   text-align: center;
 }
-.first_section .header h2 {
+.first_section .container .header h2 {
   font-size: 32px;
   padding-bottom: 20px;
 }
-.first_section .header p {
+.first_section .container .header p {
   font-size: 18px;
 }
-.first_section .article article {
+.first_section .container .article article {
   max-width: 90%;
   margin: auto;
   display: flex;
@@ -269,21 +269,53 @@ header .container .header_details .container .request_invite:hover {
   align-items: center;
   text-align: center;
 }
-.first_section .article article svg {
+.first_section .container .article article svg {
   padding-bottom: 20px;
 }
-.first_section .article article h4 {
+.first_section .container .article article h4 {
   padding-bottom: 20px;
   font-size: 24px;
 }
-.first_section .article article p {
+.first_section .container .article article p {
   padding-bottom: 20px;
   font-size: 18px;
 }
-.first_section .article article:not(:last-of-type) {
+.first_section .container .article article:not(:last-of-type) {
   padding-bottom: 25px;
 }
 
+@media (min-width: 720px) {
+  .first_section {
+    padding-bottom: 80px;
+  }
+  .first_section .container {
+    max-width: 80%;
+    margin: auto;
+  }
+  .first_section .container .header {
+    max-width: 100%;
+    margin: auto;
+    text-align: left;
+  }
+  .first_section .container .header p {
+    max-width: 650px;
+  }
+  .first_section .container .article {
+    display: flex;
+    flex-direction: row;
+  }
+  .first_section .container .article article {
+    width: 250px;
+    height: 300px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .first_section .container .article article:not(:last-of-type) {
+    padding-bottom: 0;
+  }
+}
 .second_section {
   font-family: "PublicSans-Regular";
   font-style: normal;

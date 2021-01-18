@@ -306,7 +306,7 @@ header .container .header_details .container .request_invite:hover {
   }
   .first_section .container .article article {
     width: 250px;
-    height: 300px;
+    height: 380px;
     text-align: left;
     display: flex;
     flex-direction: column;

@@ -1,8 +1,3 @@
-// PublicSans-bold
-// PublicSans-Medium
-// PublicSans-Regular
-// PublicSans-SemiBold
-// PublicSans-Thin
 header {
     .container {
         .sub_header {
@@ -89,9 +84,6 @@ header {
             }
         }
         .header_details {
-            // background-image: url(../images/bg-intro-mobile.svg);
-            // background-repeat: no-repeat;
-            // background-position: 50% 50%;
             padding-bottom: 80px;
             background-color: hsl(0, 0%, 98%);
             .container {
@@ -124,20 +116,19 @@ header {
                     font-weight: bold;
                     color:#fff;
                     text-decoration: none;
-                    background-color: #429000;
+                    background: linear-gradient(to right, #1de027, #4ca2cb) !important;
                     outline: none;
-                    padding:10px 5px;
+                    padding:15px 20px;
                     -webkit-border-radius: 10px;
                     -moz-border-radius: 10px;
-                    border-radius: 10px;
+                    border-radius: 21px;
                     -webkit-box-sizing: border-box;
                     -moz-box-sizing: border-box;
                     box-sizing: border-box;
-                    border: 5px solid #429000;
+                    border: none;
                 }
                 .request_invite:hover {
-                    color: #429000;
-                    background-color: hsl(0, 0%, 100%);
+                    box-shadow: 2px 2px 6px black;
                 }
             }
         }
@@ -148,7 +139,7 @@ header {
     header {
         .container {
             .sub_header {
-                max-width: 75%;
+                max-width: 80%;
                 margin: auto;
                 display: flex;
                 flex-direction: row;
@@ -208,27 +199,38 @@ header {
                     text-align: center;
                     font-weight: bold;
                     color:#fff;
-                    text-decoration: none;
-                    background-color: #429000;
-                    padding:10px 5px;
+                    background: linear-gradient(to right, #1de027, #4ca2cb) !important;
+                    outline: none;
+                    padding:15px 20px;
                     -webkit-border-radius: 10px;
                     -moz-border-radius: 10px;
-                    border-radius: 10px;
+                    border-radius: 21px;
                     -webkit-box-sizing: border-box;
                     -moz-box-sizing: border-box;
                     box-sizing: border-box;
-                    border: 5px solid #429000;
-                }
-                .request_invite:active{
-                    position: relative;
-                    top:3px;
-                    left:2px;
-                    box-shadow: 0px 0px;
+                    border: none;
                 }
                 .request_invite:hover{
-                    background-color: #fff;
-                    color:#429000;
-                    font-weight: bold;
+                    box-shadow: 2px 2px 6px black;
+                }
+            }
+            .header_details {
+                padding-bottom: 150px;
+                .container {
+                    max-width: 80%;
+                    margin: auto;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    h1 {
+                        text-align: left;
+                        max-width: 400px;
+                        font-size: 46px;
+                    }
+                    p {
+                        font-size: 23px;
+                        max-width: 500px;
+                    }
                 }
             }
         }

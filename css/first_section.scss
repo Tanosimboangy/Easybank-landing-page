@@ -63,6 +63,7 @@
             .article {
                 display: flex;
                 flex-direction: row;
+                flex-wrap: wrap;
                 article {
                     width: 250px;
                     height: 380px;

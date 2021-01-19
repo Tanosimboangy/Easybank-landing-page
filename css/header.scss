@@ -51,6 +51,21 @@ header {
                             font-weight: 500;
                             font-size: 18px;
                             color: rgb(50, 44, 44);
+                            font-size: 18px;
+                            position: relative;
+                            display: inline-block;
+                            background: linear-gradient(to right, rgb(25, 25, 112), midnightblue 50%, royalblue 50%);
+                            background-clip: text;
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            background-size: 200% 100%;
+                            background-position: 100%;
+                            transition: background-position 275ms ease;
+                            text-decoration: none; 
+                            }
+                            a:hover {
+                                background-position: 0 100%;
+                                font-weight: 700;
                         }
                     }
                 }

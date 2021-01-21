@@ -100,7 +100,7 @@ header {
                     font-style: normal;
                     font-weight: 500;
                     font-size: 36px;
-                    color: rgb(50, 44, 44);
+                    color: hsl(233, 26%, 24%);
                     padding-top: 250px;
                     padding-bottom: 30px;
                 }
@@ -109,30 +109,24 @@ header {
                     font-style: normal;
                     font-weight: 500;
                     font-size: 18px;
-                    color: rgb(50, 44, 44);
+                    color: hsl(233, 8%, 62%);
                     opacity: .8;
                     padding-bottom: 30px;
                 }
                 .request_invite {
                     display: block;
                     text-align: center;
-                    font-weight: bold;
-                    color:#fff;
-                    text-decoration: none;
+                    color: hsl(0, 0%, 100%);
                     background: linear-gradient(to right, #1de027, #4ca2cb) !important;
                     outline: none;
                     padding:15px 20px;
-                    -webkit-border-radius: 10px;
-                    -moz-border-radius: 10px;
-                    border-radius: 21px;
-                    -webkit-box-sizing: border-box;
-                    -moz-box-sizing: border-box;
                     box-sizing: border-box;
                     border: none;
                     cursor: pointer;
+                    border-radius: 21px;
                 }
-                .request_invite:hover {
-                    box-shadow: 2px 2px 6px black;
+                .request_invite:hover{
+                    background: linear-gradient(to right, #8dcb90, #85afc2) !important;
                 }
             }
         }
@@ -148,6 +142,8 @@ header {
                 display: flex;
                 flex-direction: row;
                 align-items: center;
+                padding-top: 0;
+                padding-bottom: 0;
                 .header_navigation, .request_invite {
                     display: inline-block;
                 }
@@ -171,21 +167,17 @@ header {
                             font-weight: 500;
                             a {
                                 font-size: 18px;
-                                position: relative;
                                 display: inline-block;
-                                background: linear-gradient(to right, rgb(25, 25, 112), midnightblue 50%, royalblue 50%);
-                                background-clip: text;
-                                -webkit-background-clip: text;
-                                -webkit-text-fill-color: transparent;
-                                background-size: 200% 100%;
-                                background-position: 100%;
-                                transition: background-position 275ms ease;
+                                font-weight: 600;
+                                padding-top: 40px;
+                                padding-bottom: 40px;
+                                color: hsl(233, 8%, 62%);
                                 text-decoration: none; 
                                 cursor: pointer;
                                 }
                                 a:hover {
-                                    background-position: 0 100%;
-                                    font-weight: 700;
+                                    color: hsl(233, 26%, 24%);
+                                    border-bottom: 4px solid #1de427;
                             }
                         }
                         li:not(:last-of-type) {
@@ -202,22 +194,17 @@ header {
                 .request_invite {
                     display: block;
                     text-align: center;
-                    font-weight: bold;
-                    color:#fff;
+                    color: hsl(0, 0%, 100%);
                     background: linear-gradient(to right, #1de027, #4ca2cb) !important;
                     outline: none;
                     padding:15px 20px;
-                    -webkit-border-radius: 10px;
-                    -moz-border-radius: 10px;
-                    border-radius: 21px;
-                    -webkit-box-sizing: border-box;
-                    -moz-box-sizing: border-box;
                     box-sizing: border-box;
                     border: none;
                     cursor: pointer;
+                    border-radius: 21px;
                 }
                 .request_invite:hover{
-                    box-shadow: 2px 2px 6px black;
+                    background: linear-gradient(to right, #8dcb90, #85afc2) !important;
                 }
             }
             .header_details {

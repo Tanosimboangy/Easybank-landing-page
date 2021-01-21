@@ -1,10 +1,9 @@
 .first_section {
-    background: #e1e3ec;
+    background: #eff0f4;
     padding-top: 80px;
     font-family: "PublicSans-Regular";
     font-style: normal;
     font-weight: 500;
-    color: rgb(50, 44, 44);
     .container {
         .header {
             max-width: 90%;
@@ -12,6 +11,7 @@
             padding-bottom: 60px;
             text-align: center;
             h2 {
+                font-family: "PublicSans-Thin";
                 font-size: 32px;
                 padding-bottom: 20px;
             }

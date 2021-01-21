@@ -30030,6 +30030,7 @@ var _react = _interopRequireDefault(require("react"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+// import img from '../images'
 function Seecond_section() {
   return /*#__PURE__*/_react.default.createElement("section", {
     className: "second_section"

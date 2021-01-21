@@ -105,6 +105,7 @@ header .container .sub_header .open_menu svg {
   position: absolute;
   top: 34.5px;
   right: 13px;
+  cursor: pointer;
 }
 header .container .sub_header .close_menu svg {
   display: none;
@@ -117,6 +118,7 @@ header .container .sub_header .header_input:checked ~ .close_menu svg {
   position: absolute;
   top: 30px;
   right: 13px;
+  cursor: pointer;
 }
 header .container .header_details {
   padding-bottom: 80px;
@@ -163,6 +165,7 @@ header .container .header_details .container .request_invite {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   border: none;
+  cursor: pointer;
 }
 header .container .header_details .container .request_invite:hover {
   box-shadow: 2px 2px 6px black;
@@ -212,6 +215,7 @@ header .container .header_details .container .request_invite:hover {
     background-position: 100%;
     transition: background-position 275ms ease;
     text-decoration: none;
+    cursor: pointer;
   }
   header .container .sub_header .header_navigation ul li a:hover {
     background-position: 0 100%;
@@ -241,6 +245,7 @@ header .container .header_details .container .request_invite:hover {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     border: none;
+    cursor: pointer;
   }
   header .container .sub_header .request_invite:hover {
     box-shadow: 2px 2px 6px black;
@@ -495,6 +500,7 @@ header .container .header_details .container .request_invite:hover {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   border: none;
+  cursor: pointer;
 }
 .footer .container .last_footer_item button:hover {
   box-shadow: 2px 2px 6px black;
@@ -517,13 +523,18 @@ header .container .header_details .container .request_invite:hover {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    flex-wrap: wrap;
   }
   .footer .container div:first-of-type {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
   }
+  .footer .container div:first-of-type .footer_links {
+    width: 160px;
+  }
   .footer .container .footer_navigation {
+    display: contents;
     padding-bottom: 20px;
   }
   .footer .container .footer_navigation ul li {

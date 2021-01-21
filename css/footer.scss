@@ -84,6 +84,7 @@
                 -moz-box-sizing: border-box;
                 box-sizing: border-box;
                 border: none;
+                cursor: pointer;
             }
             button:hover {
                 box-shadow: 2px 2px 6px black;
@@ -111,15 +112,17 @@
             flex-direction: row;
             justify-content: space-between;
             align-items: flex-start;
+            flex-wrap: wrap;
             div:first-of-type {
                 display: flex;
                 flex-direction: column;
                 align-items: flex-start;
                 .footer_links {
-                    
+                    width: 160px;
                 }
             }
             .footer_navigation {
+                display: contents;
                 padding-bottom: 20px;
                 ul {
                     li {

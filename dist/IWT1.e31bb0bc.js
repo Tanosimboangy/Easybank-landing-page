@@ -30018,7 +30018,15 @@ function First_section() {
 
 var _default = First_section;
 exports.default = _default;
-},{"react":"node_modules/react/index.js"}],"components/Second_section.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js"}],"images/image-currency.jpg":[function(require,module,exports) {
+module.exports = "/image-currency.a4ddfb91.jpg";
+},{}],"images/image-restaurant.jpg":[function(require,module,exports) {
+module.exports = "/image-restaurant.862200da.jpg";
+},{}],"images/image-plane.jpg":[function(require,module,exports) {
+module.exports = "/image-plane.a40ba68a.jpg";
+},{}],"images/image-confetti.jpg":[function(require,module,exports) {
+module.exports = "/image-confetti.08818fb1.jpg";
+},{}],"components/Second_section.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -30028,9 +30036,16 @@ exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
+var _imageCurrency = _interopRequireDefault(require("../images/image-currency.jpg"));
+
+var _imageRestaurant = _interopRequireDefault(require("../images/image-restaurant.jpg"));
+
+var _imagePlane = _interopRequireDefault(require("../images/image-plane.jpg"));
+
+var _imageConfetti = _interopRequireDefault(require("../images/image-confetti.jpg"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-// import img from '../images'
 function Seecond_section() {
   return /*#__PURE__*/_react.default.createElement("section", {
     className: "second_section"
@@ -30039,23 +30054,19 @@ function Seecond_section() {
   }, /*#__PURE__*/_react.default.createElement("h2", null, "Latest Articles"), /*#__PURE__*/_react.default.createElement("div", {
     className: "articles"
   }, /*#__PURE__*/_react.default.createElement("article", null, /*#__PURE__*/_react.default.createElement("img", {
-    src: "../images/image-currency.jpg",
-    alt: "image-currency"
+    src: _imageCurrency.default
   }), /*#__PURE__*/_react.default.createElement("small", null, "By Claire Robinson"), /*#__PURE__*/_react.default.createElement("h5", null, "Receive money in any currency with no fees"), /*#__PURE__*/_react.default.createElement("p", null, "The world is getting smaller and we're becoming more mobile. So why should you be forced to only receive in a single...")), /*#__PURE__*/_react.default.createElement("article", null, /*#__PURE__*/_react.default.createElement("img", {
-    src: "../images/image-currency.jpg",
-    alt: "image-currency"
+    src: _imageRestaurant.default
   }), /*#__PURE__*/_react.default.createElement("small", null, "By Wilson Huntton"), /*#__PURE__*/_react.default.createElement("h5", null, "Treat yourself without worrying about money"), /*#__PURE__*/_react.default.createElement("p", null, "Our simple budgeting feature allows you to separate out your spending and set realistic limits each month. That means you ...")), /*#__PURE__*/_react.default.createElement("article", null, /*#__PURE__*/_react.default.createElement("img", {
-    src: "../images/image-currency.jpg",
-    alt: "image-currency"
+    src: _imagePlane.default
   }), /*#__PURE__*/_react.default.createElement("small", null, "By Wilson Huntton"), /*#__PURE__*/_react.default.createElement("h5", null, "Take your Easybank card wherever you go"), /*#__PURE__*/_react.default.createElement("p", null, "We want you to enjoy your travels. This is why we don't charge any fees on purchases while you're abroad. We'll even show you ...")), /*#__PURE__*/_react.default.createElement("article", null, /*#__PURE__*/_react.default.createElement("img", {
-    src: "../images/image-currency.jpg",
-    alt: "image-currency"
+    src: _imageConfetti.default
   }), /*#__PURE__*/_react.default.createElement("small", null, "By Claire Robinson"), /*#__PURE__*/_react.default.createElement("h5", null, "Our invite-only Beta accounts are now live!"), /*#__PURE__*/_react.default.createElement("p", null, "After a lot of hard work by the whole team, we're excited to launch our closed beta. It's easy to request an invite through the site ...")))));
 }
 
 var _default = Seecond_section;
 exports.default = _default;
-},{"react":"node_modules/react/index.js"}],"components/Main.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../images/image-currency.jpg":"images/image-currency.jpg","../images/image-restaurant.jpg":"images/image-restaurant.jpg","../images/image-plane.jpg":"images/image-plane.jpg","../images/image-confetti.jpg":"images/image-confetti.jpg"}],"components/Main.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {

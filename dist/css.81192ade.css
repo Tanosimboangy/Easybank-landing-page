@@ -123,6 +123,7 @@ header .container .sub_header .header_input:checked ~ .close_menu svg {
 header .container .header_details {
   padding-bottom: 80px;
   background-color: #fafafa;
+  background-image: url();
 }
 header .container .header_details .container {
   max-width: 90%;
@@ -328,7 +329,7 @@ header .container .header_details .container .request_invite:hover {
     text-align: left;
   }
   .first_section .container .header p {
-    max-width: 650px;
+    max-width: 600px;
   }
   .first_section .container .article {
     display: flex;
@@ -370,8 +371,9 @@ header .container .header_details .container .request_invite:hover {
   border-radius: 5px;
   display: flex;
   flex-direction: column;
-  width: 240px;
+  width: 250px;
   height: 500px;
+  margin: auto;
 }
 .second_section .container .articles article img {
   width: 100%;
@@ -420,6 +422,7 @@ header .container .header_details .container .request_invite:hover {
   }
   .second_section .container .articles article:not(:last-of-type) {
     margin-right: auto;
+    margin-bottom: 0;
   }
 }
 .footer {

@@ -413,14 +413,20 @@ header .container .header_details .container .request_invite:hover {
   }
 }
 .footer {
-  background-color: #2d314d;
   padding-top: 40px;
   padding-bottom: 40px;
+  background-color: #2d314d;
 }
 .footer .container {
   display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.footer .container div:first-of-type {
+  display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 40px;
 }
 .footer .container div:first-of-type .footer_logo {
   padding-bottom: 40px;
@@ -430,10 +436,13 @@ header .container .header_details .container .request_invite:hover {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding-bottom: 40px;
 }
-.footer .container div:first-of-type .footer_links li a svg {
-  cursor: pointer;
+.footer .container div:first-of-type .footer_links li a img {
+  width: 25px;
+  height: 25px;
+}
+.footer .container div:first-of-type .footer_links li:not(:last-of-type) {
+  margin-right: 20px;
 }
 .footer .container .footer_navigation {
   padding-bottom: 20px;
@@ -442,61 +451,52 @@ header .container .header_details .container .request_invite:hover {
   padding-bottom: 20px;
 }
 .footer .container .footer_navigation ul li a {
-  font-family: "PublicSans-Regular";
-  font-style: normal;
+  font-size: 18px;
   font-weight: 500;
-  font-size: 18px;
-  color: #322c2c;
-  font-size: 18px;
-  position: relative;
+  font-style: normal;
   display: inline-block;
-  background: linear-gradient(to right, #f9f9fa, white 50%, white 50%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-size: 200% 100%;
-  background-position: 100%;
-  transition: background-position 275ms ease;
   text-decoration: none;
+  color: white;
+  font-family: "PublicSans-Regular";
 }
 .footer .container .footer_navigation ul li a:hover {
-  background-position: 0 100%;
   font-weight: 700;
+  background-position: 0 100%;
 }
 .footer .container .footer_navigation .first_lists {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
 }
 .footer .container .footer_navigation .second_lists {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
 }
 .footer .container .last_footer_item {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
 }
 .footer .container .last_footer_item button {
-  display: block;
-  text-align: center;
-  font-weight: bold;
-  color: #fff;
-  background: linear-gradient(to right, #1de027, #4ca2cb) !important;
-  outline: none;
-  padding: 15px 20px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 21px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
   border: none;
+  outline: none;
   cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  padding: 13px 20px;
+  text-align: center;
+  border-radius: 25px;
+  white-space: nowrap;
+  box-sizing: border-box;
+  color: white;
+  font-family: "PublicSans-Regular";
+  background: linear-gradient(to right, #1de027, #4ca2cb) !important;
 }
 .footer .container .last_footer_item button:hover {
   box-shadow: 2px 2px 6px black;
+  background: linear-gradient(to right, #58d15e, #6ca2bb) !important;
 }
 .footer .container .last_footer_item p {
   padding-top: 20px;
@@ -504,8 +504,7 @@ header .container .header_details .container .request_invite:hover {
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
-  color: grey;
-  font-size: 18px;
+  color: dimgrey;
 }
 
 @media (min-width: 720px) {
@@ -523,9 +522,6 @@ header .container .header_details .container .request_invite:hover {
     flex-direction: column;
     align-items: flex-start;
   }
-  .footer .container div:first-of-type .footer_links {
-    width: 160px;
-  }
   .footer .container .footer_navigation {
     display: contents;
     padding-bottom: 20px;
@@ -538,17 +534,9 @@ header .container .header_details .container .request_invite:hover {
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    color: #322c2c;
+    color: white;
     font-size: 18px;
-    position: relative;
     display: inline-block;
-    background: linear-gradient(to right, #f9f9fa, white 50%, white 50%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-size: 200% 100%;
-    background-position: 100%;
-    transition: background-position 275ms ease;
     text-decoration: none;
   }
   .footer .container .footer_navigation ul li a:hover {
@@ -571,32 +559,18 @@ header .container .header_details .container .request_invite:hover {
     align-items: center;
   }
   .footer .container .last_footer_item button {
-    display: block;
-    text-align: center;
-    font-weight: bold;
-    color: #fff;
-    background: linear-gradient(to right, #1de027, #4ca2cb) !important;
-    outline: none;
-    padding: 15px 20px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 21px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    border: none;
+    align-self: flex-end;
   }
   .footer .container .last_footer_item button:hover {
     box-shadow: 2px 2px 6px black;
   }
   .footer .container .last_footer_item p {
-    padding-top: 20px;
-    font-family: "PublicSans-Regular";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
     color: grey;
     font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "PublicSans-Regular";
+    padding-top: 38px;
   }
 }
 

@@ -1,12 +1,16 @@
 .footer {
-    background-color:  hsl(233, 26%, 24%);
     padding-top: 40px;
     padding-bottom: 40px;
+    background-color:  hsl(233, 26%, 24%);
     .container {
         display: flex;
-        flex-direction: column;
         align-items: center;
+        flex-direction: column;
         div:first-of-type {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 40px;
             .footer_logo {
                 padding-bottom: 40px;
             }
@@ -15,13 +19,16 @@
                 flex-direction: row;
                 align-items: center;
                 justify-content: space-between;
-                padding-bottom: 40px;
                 li {
                     a {
-                        svg {
-                            cursor: pointer;
+                        img {
+                            width: 25px;
+                            height: 25px;
                         }
                     }
+                }
+                li:not(:last-of-type) {
+                    margin-right: 20px;
                 }
             }
         }
@@ -31,63 +38,54 @@
                 li {
                     padding-bottom: 20px;
                     a {
-                        font-family: "PublicSans-Regular";
-                        font-style: normal;
+                        font-size: 18px;
                         font-weight: 500;
-                        font-size: 18px;
-                        color: rgb(50, 44, 44);
-                        font-size: 18px;
-                        position: relative;
+                        font-style: normal;
                         display: inline-block;
-                        background: linear-gradient(to right, rgb(249, 249, 250), rgb(255, 255, 255) 50%, rgb(255, 255, 255) 50%);
-                        background-clip: text;
-                        -webkit-background-clip: text;
-                        -webkit-text-fill-color: transparent;
-                        background-size: 200% 100%;
-                        background-position: 100%;
-                        transition: background-position 275ms ease;
                         text-decoration: none; 
+                        color: hsl(0, 0%, 100%);
+                        font-family: "PublicSans-Regular";
                         }
                         a:hover {
-                            background-position: 0 100%;
                             font-weight: 700;
+                            background-position: 0 100%;
                     }
                 }
             }
             .first_lists {
                 display: flex;
-                flex-direction: column;
                 align-items: center;
+                flex-direction: column;
             }
             .second_lists {
                 display: flex;
-                flex-direction: column;
                 align-items: center;
+                flex-direction: column;
             }
         }
         .last_footer_item {
             display: flex;
-            flex-direction: column;
             align-items: center;
+            flex-direction: column;
             button {
-                display: block;
-                text-align: center;
-                font-weight: bold;
-                color:#fff;
-                background: linear-gradient(to right, #1de027, #4ca2cb) !important;
-                outline: none;
-                padding:15px 20px;
-                -webkit-border-radius: 10px;
-                -moz-border-radius: 10px;
-                border-radius: 21px;
-                -webkit-box-sizing: border-box;
-                -moz-box-sizing: border-box;
-                box-sizing: border-box;
                 border: none;
+                outline: none;
                 cursor: pointer;
+                font-size: 18px;
+                font-weight: 500;
+                font-style: normal;
+                padding: 13px 20px;
+                text-align: center;
+                border-radius: 25px;
+                white-space: nowrap;
+                box-sizing: border-box;
+                color: hsl(0, 0%, 100%);
+                font-family: "PublicSans-Regular";
+                background: linear-gradient(to right, #1de027, #4ca2cb) !important;
             }
             button:hover {
                 box-shadow: 2px 2px 6px black;
+                background: linear-gradient(to right, #58d15e, #6ca2bb) !important;
             }
             p {
                 padding-top: 20px;
@@ -95,8 +93,7 @@
                 font-style: normal;
                 font-weight: 500;
                 font-size: 18px;
-                color: grey;
-                font-size: 18px;
+                color: dimgrey;
             }
 
         }
@@ -118,7 +115,7 @@
                 flex-direction: column;
                 align-items: flex-start;
                 .footer_links {
-                    width: 160px;
+                    // width: 260px;
                 }
             }
             .footer_navigation {
@@ -132,17 +129,9 @@
                             font-style: normal;
                             font-weight: 500;
                             font-size: 18px;
-                            color: rgb(50, 44, 44);
+                            color: hsl(0, 0%, 100%);
                             font-size: 18px;
-                            position: relative;
                             display: inline-block;
-                            background: linear-gradient(to right, rgb(249, 249, 250), rgb(255, 255, 255) 50%, rgb(255, 255, 255) 50%);
-                            background-clip: text;
-                            -webkit-background-clip: text;
-                            -webkit-text-fill-color: transparent;
-                            background-size: 200% 100%;
-                            background-position: 100%;
-                            transition: background-position 275ms ease;
                             text-decoration: none; 
                             }
                             a:hover {
@@ -167,32 +156,18 @@
                 flex-direction: column;
                 align-items: center;
                 button {
-                    display: block;
-                    text-align: center;
-                    font-weight: bold;
-                    color:#fff;
-                    background: linear-gradient(to right, #1de027, #4ca2cb) !important;
-                    outline: none;
-                    padding:15px 20px;
-                    -webkit-border-radius: 10px;
-                    -moz-border-radius: 10px;
-                    border-radius: 21px;
-                    -webkit-box-sizing: border-box;
-                    -moz-box-sizing: border-box;
-                    box-sizing: border-box;
-                    border: none;
+                    align-self: flex-end;
                 }
                 button:hover {
                     box-shadow: 2px 2px 6px black;
                 }
                 p {
-                    padding-top: 20px;
-                    font-family: "PublicSans-Regular";
-                    font-style: normal;
-                    font-weight: 500;
-                    font-size: 18px;
                     color: grey;
                     font-size: 18px;
+                    font-weight: 500;
+                    font-style: normal;
+                    font-family: "PublicSans-Regular";
+                    padding-top: 38px;
                 }
     
             }

@@ -30085,7 +30085,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function Main() {
   return /*#__PURE__*/_react.default.createElement("main", null, /*#__PURE__*/_react.default.createElement("div", {
     className: "container"
-  }));
+  }, /*#__PURE__*/_react.default.createElement(_First_section.default, null), /*#__PURE__*/_react.default.createElement(_Second_section.default, null)));
 }
 
 var _default = Main;

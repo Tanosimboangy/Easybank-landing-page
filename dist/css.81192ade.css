@@ -272,8 +272,9 @@ header .container .header_details .container .request_invite:hover {
 }
 .first_section .container .header h2 {
   font-family: "PublicSans-Thin";
-  font-size: 32px;
+  font-size: 30px;
   padding-bottom: 20px;
+  color: #2d314d;
 }
 .first_section .container .header p {
   font-size: 18px;
@@ -292,11 +293,14 @@ header .container .header_details .container .request_invite:hover {
 }
 .first_section .container .article article h4 {
   padding-bottom: 20px;
-  font-size: 24px;
+  font-size: 20px;
+  color: #2d314d;
 }
 .first_section .container .article article p {
   padding-bottom: 20px;
   font-size: 18px;
+  color: #9698a6;
+  max-width: 350px;
 }
 .first_section .container .article article:not(:last-of-type) {
   padding-bottom: 25px;
@@ -336,31 +340,37 @@ header .container .header_details .container .request_invite:hover {
   }
 }
 .second_section {
+  background-color: #fbf9f9;
+  padding: 80px 0;
   font-family: "PublicSans-Regular";
   font-style: normal;
-  font-weight: 500;
   color: #322c2c;
-  padding-top: 80px;
-  background-color: #fbf9f9;
-  padding-bottom: 80px;
+  font-weight: 500;
 }
 .second_section .container h2 {
-  font-size: 32px;
+  font-family: "PublicSans-Regular";
+  font-style: normal;
+  color: #322c2c;
+  font-weight: 500;
+  font-size: 30px;
   padding-bottom: 40px;
   text-align: center;
 }
 .second_section .container .articles {
   max-width: 90%;
   margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 .second_section .container .articles article {
   background-color: white;
-  border-radius: 5px;
+  border-radius: 8px;
   display: flex;
   flex-direction: column;
-  width: 250px;
+  width: 258px;
   height: 500px;
   margin: auto;
+  margin-bottom: 20px;
 }
 .second_section .container .articles article img {
   width: 100%;
@@ -385,14 +395,11 @@ header .container .header_details .container .request_invite:hover {
   max-width: 80%;
   margin: auto;
   text-align: left;
-  font-size: 18px;
+  font-size: 16px;
   padding-bottom: 20px;
 }
-.second_section .container .articles article:not(:last-of-type) {
-  margin-bottom: 20px;
-}
 
-@media (min-width: 720px) {
+@media (min-width: 870px) {
   .second_section .container {
     max-width: 80%;
     margin: auto;
@@ -404,12 +411,12 @@ header .container .header_details .container .request_invite:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 15px;
     max-width: 100%;
     margin: auto;
   }
-  .second_section .container .articles article:not(:last-of-type) {
-    margin-right: auto;
-    margin-bottom: 0;
+  .second_section .container .articles article {
+    margin: 0;
   }
 }
 .footer {

@@ -12,8 +12,9 @@
             text-align: center;
             h2 {
                 font-family: "PublicSans-Thin";
-                font-size: 32px;
+                font-size: 30px;
                 padding-bottom: 20px;
+                color:  hsl(233, 26%, 24%);
             }
             p {
                 font-size: 18px;
@@ -33,11 +34,14 @@
                 }
                 h4 {
                     padding-bottom: 20px;
-                    font-size: 24px;
+                    font-size: 20px;
+                    color:  hsl(233, 26%, 24%);
                 }
                 p {
                     padding-bottom: 20px;
                     font-size: 18px;
+                    color: hsl(233, 8%, 62%);
+                    max-width: 350px;
                 }
             }
             article:not(:last-of-type) {

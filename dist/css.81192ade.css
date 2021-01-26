@@ -83,18 +83,10 @@ header .container .sub_header .header_input:checked ~ .header_navigation ul li a
   font-family: "PublicSans-Regular";
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
   color: #322c2c;
-  font-size: 18px;
+  font-size: 16px;
   position: relative;
   display: inline-block;
-  background: linear-gradient(to right, midnightblue, midnightblue 50%, royalblue 50%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-size: 200% 100%;
-  background-position: 100%;
-  transition: background-position 275ms ease;
   text-decoration: none;
 }
 header .container .sub_header .header_input:checked ~ .header_navigation ul li a:hover {
@@ -156,17 +148,17 @@ header .container .header_details .container .request_invite {
   color: white;
   background: linear-gradient(to right, #1de027, #4ca2cb) !important;
   outline: none;
-  padding: 15px 20px;
+  padding: 12px 18px;
   box-sizing: border-box;
   border: none;
   cursor: pointer;
-  border-radius: 21px;
+  border-radius: 20px;
 }
 header .container .header_details .container .request_invite:hover {
   background: linear-gradient(to right, #8dcb90, #85afc2) !important;
 }
 
-@media (min-width: 850px) {
+@media (min-width: 800px) {
   header .container .sub_header {
     max-width: 80%;
     margin: auto;
@@ -201,9 +193,9 @@ header .container .header_details .container .request_invite:hover {
     font-weight: 500;
   }
   header .container .sub_header .header_navigation ul li a {
-    font-size: 18px;
+    font-size: 16px;
     display: inline-block;
-    font-weight: 600;
+    font-weight: 500;
     padding-top: 40px;
     padding-bottom: 40px;
     color: #9698a6;
@@ -233,7 +225,7 @@ header .container .header_details .container .request_invite:hover {
     box-sizing: border-box;
     border: none;
     cursor: pointer;
-    border-radius: 21px;
+    border-radius: 20px;
   }
   header .container .sub_header .request_invite:hover {
     background: linear-gradient(to right, #8dcb90, #85afc2) !important;
@@ -278,6 +270,7 @@ header .container .header_details .container .request_invite:hover {
 }
 .first_section .container .header p {
   font-size: 18px;
+  color: #9698a6;
 }
 .first_section .container .article article {
   max-width: 90%;

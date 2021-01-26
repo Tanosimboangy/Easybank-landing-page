@@ -44,18 +44,10 @@ header {
                             font-family: "PublicSans-Regular";
                             font-style: normal;
                             font-weight: 500;
-                            font-size: 18px;
                             color: rgb(50, 44, 44);
-                            font-size: 18px;
+                            font-size: 16px;
                             position: relative;
                             display: inline-block;
-                            background: linear-gradient(to right, rgb(25, 25, 112), midnightblue 50%, royalblue 50%);
-                            background-clip: text;
-                            -webkit-background-clip: text;
-                            -webkit-text-fill-color: transparent;
-                            background-size: 200% 100%;
-                            background-position: 100%;
-                            transition: background-position 275ms ease;
                             text-decoration: none; 
                             }
                             a:hover {
@@ -119,11 +111,11 @@ header {
                     color: hsl(0, 0%, 100%);
                     background: linear-gradient(to right, #1de027, #4ca2cb) !important;
                     outline: none;
-                    padding:15px 20px;
+                    padding:12px 18px;
                     box-sizing: border-box;
                     border: none;
                     cursor: pointer;
-                    border-radius: 21px;
+                    border-radius: 20px;
                 }
                 .request_invite:hover{
                     background: linear-gradient(to right, #8dcb90, #85afc2) !important;
@@ -133,7 +125,7 @@ header {
     }
 }
 
-@media(min-width: 850px) {
+@media(min-width: 800px) {
     header {
         .container {
             .sub_header {
@@ -166,9 +158,9 @@ header {
                             font-style: normal;
                             font-weight: 500;
                             a {
-                                font-size: 18px;
+                                font-size: 16px;
                                 display: inline-block;
-                                font-weight: 600;
+                                font-weight: 500;
                                 padding-top: 40px;
                                 padding-bottom: 40px;
                                 color: hsl(233, 8%, 62%);
@@ -201,7 +193,7 @@ header {
                     box-sizing: border-box;
                     border: none;
                     cursor: pointer;
-                    border-radius: 21px;
+                    border-radius: 20px;
                 }
                 .request_invite:hover{
                     background: linear-gradient(to right, #8dcb90, #85afc2) !important;

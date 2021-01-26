@@ -8,7 +8,6 @@ function Seecond_section() {
     return (
         <section className="second_section">
             <div className="container">
-
                 <h2>Latest Articles</h2>
                 <div className="articles">
                     <article>

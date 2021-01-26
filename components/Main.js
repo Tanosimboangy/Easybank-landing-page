@@ -6,8 +6,8 @@ function Main() {
     return (
         <main>
             <div className="container">
-                <First_section />
-                <Second_section />
+                {/* <First_section />
+                <Second_section /> */}
             </div>
         </main>
     )

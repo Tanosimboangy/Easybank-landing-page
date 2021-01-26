@@ -30085,7 +30085,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function Main() {
   return /*#__PURE__*/_react.default.createElement("main", null, /*#__PURE__*/_react.default.createElement("div", {
     className: "container"
-  }, /*#__PURE__*/_react.default.createElement(_First_section.default, null), /*#__PURE__*/_react.default.createElement(_Second_section.default, null)));
+  }));
 }
 
 var _default = Main;
@@ -30279,7 +30279,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64241" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49910" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

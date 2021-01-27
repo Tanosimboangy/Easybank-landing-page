@@ -29772,7 +29772,9 @@ if ("development" === 'production') {
 } else {
   module.exports = require('./cjs/react-dom.development.js');
 }
-},{"./cjs/react-dom.development.js":"node_modules/react-dom/cjs/react-dom.development.js"}],"components/Header.js":[function(require,module,exports) {
+},{"./cjs/react-dom.development.js":"node_modules/react-dom/cjs/react-dom.development.js"}],"images/image-mockups.png":[function(require,module,exports) {
+module.exports = "/image-mockups.82980908.png";
+},{}],"components/Header.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -29781,6 +29783,8 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
+
+var _imageMockups = _interopRequireDefault(require("../images/image-mockups.png"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -29872,15 +29876,20 @@ function Header() {
     className: "header_details"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "container"
-  }, /*#__PURE__*/_react.default.createElement("h1", null, "Nest generation digital banking"), /*#__PURE__*/_react.default.createElement("p", null, "Take our finacial life online. Your Easybank account will be a one-stop-shop for spending, saving, budgeting, investing, and much more."), /*#__PURE__*/_react.default.createElement("button", {
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "images"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    src: _imageMockups.default,
+    alt: "mockup"
+  })), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("h1", null, "Nest generation digital banking"), /*#__PURE__*/_react.default.createElement("p", null, "Take our finacial life online. Your Easybank account will be a one-stop-shop for spending, saving, budgeting, investing, and much more."), /*#__PURE__*/_react.default.createElement("button", {
     type: "button",
     className: "request_invite"
-  }, "Request invite")))));
+  }, "Request invite"))))));
 }
 
 var _default = Header;
 exports.default = _default;
-},{"react":"node_modules/react/index.js"}],"components/First_section.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../images/image-mockups.png":"images/image-mockups.png"}],"components/First_section.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -30280,7 +30289,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50727" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50586" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

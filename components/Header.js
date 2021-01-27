@@ -1,4 +1,5 @@
-import React from 'react';
+import React from 'react'; 
+import mockup from '../images/image-mockups.png'; 
 
 function Header() {
     return (
@@ -26,9 +27,14 @@ function Header() {
                 </div>
                 <div className="header_details">
                     <div className="container">
-                        <h1>Nest generation digital banking</h1>
-                        <p>Take our finacial life online. Your Easybank account will be a one-stop-shop for spending, saving, budgeting, investing, and much more.</p>
-                        <button type="button" className="request_invite">Request invite</button>
+                        <div className="images">
+                            <img src={mockup} alt="mockup"/>
+                        </div>
+                        <div>
+                            <h1>Nest generation digital banking</h1>
+                            <p>Take our finacial life online. Your Easybank account will be a one-stop-shop for spending, saving, budgeting, investing, and much more.</p>
+                            <button type="button" className="request_invite">Request invite</button>
+                        </div>
                     </div>
                 </div>
             </div>

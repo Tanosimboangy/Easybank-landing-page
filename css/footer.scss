@@ -48,7 +48,7 @@
                         }
                         a:hover {
                             font-weight: 700;
-                            background-position: 0 100%;
+                            color:  hsl(136, 85%, 32%);
                     }
                 }
             }
@@ -114,8 +114,9 @@
                 display: flex;
                 flex-direction: column;
                 align-items: flex-start;
-                .footer_links {
-                    // width: 260px;
+                padding-bottom: 0;
+                .footer_logo {
+                    padding-bottom: 58px;
                 }
             }
             .footer_navigation {

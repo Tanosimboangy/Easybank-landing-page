@@ -69,12 +69,13 @@
                 text-align: left;
             }
             .articles {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
                 gap: 15px;
-                max-width: 100%;
                 margin: auto;
+                display: flex;
+                flex-wrap: wrap;
+                max-width: 100%;
+                flex-direction: row;
+                justify-content: space-between;
                 article {
                     margin: 0;
                 }

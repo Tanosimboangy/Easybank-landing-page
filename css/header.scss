@@ -89,12 +89,9 @@ header {
                 align-items: center;
                 div:first-of-type {
                     .images {
-                        background-image: url(../images/bg-intro-desktop.svg), url(../images/image-mockups.png);
-                        background-repeat: no-repeat, no-repeat;
-                        background-position: 50%, 50%;
                         img {
+                            margin-top: -17%;
                             width: 100%;
-                            margin: auto;
                         }
                     }
                 }
@@ -237,6 +234,7 @@ header {
                             img {
                                 width: 100%;
                                 margin: auto;
+                                margin-top: -200px;
                             }
                         }
                     }

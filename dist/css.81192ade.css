@@ -264,13 +264,13 @@ header .container .header_details .container div:nth-of-type(2) .request_invite:
   header .container .header_details .container .images {
     background-image: url(/bg-intro-desktop.d745898a.svg);
     background-repeat: no-repeat;
-    background-size: 90vw;
-    background-position: 15% 50%;
+    background-size: 80vw;
+    background-position: 14% 80%;
   }
   header .container .header_details .container .images img {
     width: 95%;
     margin-top: -16%;
-    margin-left: 24%;
+    margin-left: 19%;
     margin-bottom: -15%;
   }
   header .container .header_details .container div:nth-of-type(2) {

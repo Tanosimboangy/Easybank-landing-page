@@ -56,6 +56,10 @@
                     padding-bottom: 20px;
                 }
             }
+            article:hover {
+                box-shadow: rgba(0, 0, 0, 0.47) 0px 3px 8px;
+                transform: translateY(-10px);
+            }
         }
     }
 }

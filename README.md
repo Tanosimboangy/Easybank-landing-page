@@ -14,8 +14,8 @@
 
 ## Overview:
 
-![image](./webroot/images/small_screen.png)
-![image](./webroot/images/big_screen.png)
+![image](./webroot/images/easybank_sm.png)
+![image](./webroot/images/easybank_lg.png)
 
 ## Built With
 

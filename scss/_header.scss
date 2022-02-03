@@ -163,8 +163,26 @@ header {
                 align-items: center;
                 padding-top: 0;
                 padding-bottom: 0;
-                .header_navigation, .request_invite {
+                .request_invite {
                     display: inline-block;
+                    text-align: center;
+                    color: hsl(0, 0%, 100%);
+                    background: linear-gradient(to right, #1de027, #4ca2cb) !important;
+                    outline: none;
+                    padding: 13px 20px;
+                    box-sizing: border-box;
+                    border: none;
+                    cursor: pointer;
+                    border-radius: 25px;
+                    white-space: nowrap;
+                    font-family: "PublicSans-Regular";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    max-width: 300px;
+                }
+                .request_invite:hover {
+                    background: linear-gradient(to right, #8dcb90, #85afc2) !important;
                 }
                 .header_input {
                     display: none;
@@ -186,14 +204,18 @@ header {
                             font-weight: 500;
                             a {
                                 font-size: 18px;
-                                display: inline-block;
-                                font-weight: 500;
-                                padding: 40px 0;
-                                color: hsl(233, 8%, 62%);
-                                text-decoration: none; 
                                 cursor: pointer;
+                                font-weight: 500;
+                                padding-top: 40px;
+                                padding-left: 0px;
+                                padding-right: 0px;
+                                padding-bottom: 40px;
+                                display: inline-block;
+                                text-decoration: none; 
+                                color: hsl(233, 8%, 62%);
                                 }
                                 a:hover {
+                                    padding-bottom: 36px;
                                     color: hsl(233, 26%, 24%);
                                     border-bottom: 4px solid #1de427;
                             }

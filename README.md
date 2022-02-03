@@ -6,7 +6,7 @@
       Source
     </a>
     <span> | </span>
-    <a href="https://jacquit-photograph.netlify.app/">
+    <a href="">
       Demo
     </a>
   </h3>
@@ -16,10 +16,6 @@
 
 ![image](./webroot/images/small_screen.png)
 ![image](./webroot/images/big_screen.png)
-
-## Desing:
-
-![Design preview for the Easybank landing page coding challenge](./design/desktop-preview.jpg)
 
 ## Built With
 

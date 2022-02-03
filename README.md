@@ -37,7 +37,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository to your local machine
-$ git clone https://github.com/Tanosimboangy/Photography-landing-page.git.
+$ git clone https://github.com/Tanosimboangy/Easybank-landing-page.git
 
 # Install dependencies:
 - npm install or yarn install

@@ -15,11 +15,11 @@
                 font-family: "PublicSans-Thin";
                 font-size: 30px;
                 padding-bottom: 20px;
-                color:  hsl(233, 26%, 24%);
+                color: rgb(10, 12, 30)
             }
             p {
                 font-size: 18px;
-                color: hsl(233, 8%, 62%);
+                color: hsl(233, 41%, 16%);
             }
         }
         .article {
@@ -36,13 +36,13 @@
                 h4 {
                     padding-bottom: 20px;
                     font-size: 20px;
-                    color:  hsl(233, 26%, 24%);
+                    color:  hsl(234, 49%, 8%);
                 }
                 p {
-                    padding-bottom: 20px;
                     font-size: 18px;
-                    color: hsl(233, 8%, 62%);
                     max-width: 350px;
+                    padding-bottom: 20px;
+                    color: hsl(233, 41%, 16%);
                 }
             }
             article:not(:last-of-type) {
